@@ -29,7 +29,6 @@
 - The product-service is running on Azure App Service. I rewrote it from Rust to Python (Flask) because Rust isn't supported on App Service. The old Rust code is still saved in the repo under the `lab2-rust` tag.
 - The store-front is running on a VM (store-vm).
 
-Note: I tried to create an Azure Static Web App for the store-front, but it failed with a policy error (RequestDisallowedByAzure) because of the new restriction on student accounts. Like the instructor said in the announcement, I deployed the store-front on a VM instead. It uses a .env file with the URLs of my two App Services.
 
 ---
 
